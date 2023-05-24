@@ -1,0 +1,50 @@
+.list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.cidade {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    position: relative;
+    top: 325px;
+}
+
+.cidade-1 {
+    position: relative;
+    top: 325px;
+}
+
+.obra-1 {
+    background-image: url(src/imagens/boat.png);
+    height: 432px;
+    width: 335px;
+}
+
+.obra-2 {
+    background-image: url(src/imagens/rome.png);
+    height: 432px;
+    width: 335px;
+}
+
+.obra-3 {
+    background-image: url(src/imagens/sand-and-sea.png);
+    height: 432px;
+    width: 335px;
+}
+
+.obra-4{
+    background-image: url(src/imagens/starry-night.png);
+    height: 432px;
+    width: 335px;
+}

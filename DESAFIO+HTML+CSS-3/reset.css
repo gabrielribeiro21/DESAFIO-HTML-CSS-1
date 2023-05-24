@@ -1,0 +1,19 @@
+html {
+    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-left: 15px;
+}
+

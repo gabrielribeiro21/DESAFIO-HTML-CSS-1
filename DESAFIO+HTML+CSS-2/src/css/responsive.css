@@ -1,0 +1,10 @@
+@media(min-width: 413px){
+    .coluna{
+        padding-inline: 50px;
+        width: 386px;
+    }
+    .coluna p{
+        font-size: 15px;
+        padding: 26px;
+    }
+}

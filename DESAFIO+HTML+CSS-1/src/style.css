@@ -1,0 +1,85 @@
+.cabecalho {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1 solid green;
+}
+
+
+
+.menu a {
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+}
+
+.home:hover {
+    color: white;
+    background-color: green;
+}
+
+.sobre:hover {
+    color: white;
+    background-color: green;
+}
+
+.blog:hover {
+    color: white;
+    background-color: green;
+}
+
+.carreira:hover {
+    color: white;
+    background-color: green;
+}
+
+.cadastre:hover {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 425px) {
+
+
+    .coluna {
+        display: flex;
+        justify-content: center;
+        flex: 1 0 150px;   
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cabecalho {
+        display: block;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    
+      .menu {
+        display: block;
+        text-align: justify;
+      }
+
+      .menu a {
+        margin-right: 15px;
+        font-size: 30px;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+      }
+      
+    }
